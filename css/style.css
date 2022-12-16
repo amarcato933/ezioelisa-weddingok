@@ -1617,8 +1617,8 @@
 	
 		body.touch .main {
 			background-attachment: scroll !important;
-			background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg');
-			background-position: 0% 30%;
+			background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2.jpeg');
+			background-position: 32% 30%;
 			background-repeat: repeat, no-repeat;
 		}
 		
