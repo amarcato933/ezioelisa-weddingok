@@ -530,7 +530,7 @@
 			.main.style1 {
 				text-align: center;
 				padding: 10em 0 10em 0;
-				background: url('images/overlay.png'), url('../images/FotoEzioElisa/background2.jpg')
+				background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg')
 			}
 			
 				.main.style1 h2 {
@@ -1149,7 +1149,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/FotoEzioElisa/background2.jpg');
+		background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: 0%, 30%;
@@ -1217,7 +1217,7 @@
 /*********************************************************************************/
 
 	#adventure_gallery {
-		background: url('images/overlay.png'), url('../images/FotoEzioElisa/background2.jpg');
+		background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1617,7 +1617,7 @@
 	
 		body.touch .main {
 			background-attachment: scroll !important;
-			background: url('images/overlay.png'), url('../images/FotoEzioElisa/background2.jpg')
+			background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg')
 		}
 		
 		body.touch .poptrox-popup {
