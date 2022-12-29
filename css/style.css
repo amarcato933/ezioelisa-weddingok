@@ -1240,7 +1240,7 @@
 /*********************************************************************************/
 
 	#ceremony {
-		background: url('images/overlay.png'), url('../images/FotoEzioElisa/mulino.png');
+		background: url('images/overlay.png'), url('../images/FotoEzioElisa/corteDelMulino.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
