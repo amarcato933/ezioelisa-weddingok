@@ -68,7 +68,7 @@
 		
 		<!-- Sezione noi -->
 			<!-- Our story -->
-			<section id="noi" class="main style2 right fullscreen" >
+			<section id="us" class="main style2 right fullscreen" >
 				<div class="content box style2" style="background-color: rgba(255, 255, 255, 0.7);">
 					<header><h2>Our Story</h2></header>
 					<p> RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? RACCONTO? &hellip;</p>
@@ -91,7 +91,7 @@
 	
 		<!-- Sezione quando dove -->
 		<!-- Cerimonia -->
-		<section id="ceremony" class="main style3 dark">
+		<section id="wherewhen" class="main style3 dark">
 			<div class="content container small shadow">
 				<header>
 					<h2>Cerimonia in chiesa	e location</h2>
@@ -123,6 +123,18 @@
 				<p>Non dimerticarti di darci la conferma della vostra presenza per il 5 Giugno!</p>
 			</div>
 		</section>
+
+		<!-- VIDEO Corte-->
+		<section id="video-bg" class="hidden-sm hidden-xs">
+			<div id="bgndVideo" class="player"
+				 data-property="{videoURL:'https://www.youtube.com/watch?v=MfeTGpL_Ff8',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+			</div>
+			<div id="video-content">
+				<h5>Location</h5>
+				<p>Corte del Mulino</p>
+			</div>
+		</section>
+		<!-- END VIDEO Corte-->
 
 
 		<!-- Sezione IMAGES -->
@@ -229,6 +241,45 @@ RELATIVE_DATES:true // show dates in the form "X hours ago." etc.
 		</section>
 		
 <!-- END GUESTBOOK -->
+
+
+<script>
+	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?86342';
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = url;
+	var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+	  "backgroundColor":"#4dc247",
+	  "ctaText":"Elisa",
+	  "borderRadius":"25",
+	  "marginLeft":"0",
+	  "marginBottom":"50",
+	  "marginRight":"20",
+	  "position":"right"
+  },
+  "brandSetting":{
+	  "brandName":"Elisa",
+	  "brandSubTitle":"Ciao, scrivimi per qualsiasi info!",
+	  "brandImg":"",
+	  "welcomeText":"Qui puoi comunicare intolleranze o richieste particolari! Grazie",
+	  "messageText":"",
+	  "backgroundColor":"#0a5f54",
+	  "ctaText":"Inizia chat Whatsapp",
+	  "borderRadius":"25",
+	  "autoShow":false,
+	  "phoneNumber":"393475075893"
+  }
+};
+	s.onload = function() {
+		CreateWhatsappChatWidget(options);
+	};
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+</script>
+
 
 		<!-- Contact -->
 			<section id="contact" class="main style3 secondary">
