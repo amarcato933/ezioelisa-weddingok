@@ -5,19 +5,21 @@
 @import url(http://fonts.googleapis.com/css?family=Lovers+Quarrel);
 @import url(https://fonts.cdnfonts.com/css/miracle);
 @import url(https://fonts.cdnfonts.com/css/caroline-2);
-
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@import url(https://fonts.cdnfonts.com/css/snowy-miracle);
+@import url(https://fonts.cdnfonts.com/css/dity);
 
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
 
 	.typewriter, h2 {
-		font-family: 'Miracle', sans-serif;
-		font-weight: 400;
+		font-family: 'Caroline';
+		font-weight: bold;
+		padding-top: 20px;
+		font-size: 28px;
 	}
 	.fancy {
-		font-family: 'Miracle', sans-serif;
+		font-family: 'dity'
 		font-weight: 400;
 	}
 	.monospace {
@@ -39,7 +41,7 @@
 	}		
 
 	#intro .monospace {
-		font-size: 65pt;
+		font-size: 75pt;
 	}
 
 	.shadow {
@@ -85,7 +87,7 @@
 			}
 
 	body,input,textarea,select {
-		font-family: 'Miracle', sans-serif;
+		font-family: 'dity';
 		font-weight: 300;
 		font-size: 20pt;
 		line-height: 1.75em;
@@ -104,7 +106,7 @@
 		}
 		
 	h2 {
-		font-family: 'Caroline';
+		font-family: 'dity';
 		font-size: 2.25em;
 		letter-spacing: 4px;
 		line-height: 1.25em;
@@ -153,9 +155,9 @@
 	}
 	
 	p, ul, ol, dl, table {
-		margin-bottom: 7em;
-		font-family: 'Miracle';
-		font-size: 20px;
+		margin-bottom: 17em;
+		font-family: 'dity';
+		font-size: 17px;
 	}
 
 	header {
@@ -185,7 +187,7 @@
 		
 		section > :last-child,
 		article > :last-child {
-			margin-bottom: 0;
+			margin-bottom: 20;
 		}
 
 		section > .content > :last-child,
@@ -681,7 +683,7 @@
 
 		.fa:before {
 			display:inline-block;
-			font-family: 'Miracle', sans-serif;
+			font-family: 'dity';
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -1162,7 +1164,7 @@
 		background: url('images/overlay.png'), url('../images/FotoEzioElisa/hometobe2.jpeg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: 0%, 65%;
+		background-position: 0%, 61%;
 		background-repeat: repeat, no-repeat;
 	}
 
