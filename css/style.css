@@ -153,8 +153,9 @@
 	}
 	
 	p, ul, ol, dl, table {
-		margin-bottom: 1em;
-		font-family: 'Caroline';
+		margin-bottom: 7em;
+		font-family: 'Miracle';
+		font-size: 20px;
 	}
 
 	header {
@@ -1101,7 +1102,7 @@
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
-		background-color: #ECA59A;
+		background-color: #8a9bc2;
 	}
 	
 	body {
@@ -1115,7 +1116,7 @@
 		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
-		background-color: #ECA59A;
+		background-color: #8a9bc2;
 	}
 	
 		#logo a {
@@ -1158,10 +1159,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/FotoEzioElisa/wedding2-small.jpg');
+		background: url('images/overlay.png'), url('../images/FotoEzioElisa/hometobe2.jpeg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: 0%, 30%;
+		background-position: 0%, 65%;
 		background-repeat: repeat, no-repeat;
 	}
 
