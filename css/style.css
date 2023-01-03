@@ -3,6 +3,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Cutive);
 @import url(http://fonts.googleapis.com/css?family=Lovers+Quarrel);
+@import url(https://fonts.cdnfonts.com/css/miracle);
+@import url(https://fonts.cdnfonts.com/css/caroline-2);
+
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 /*********************************************************************************/
@@ -10,16 +13,17 @@
 /*********************************************************************************/
 
 	.typewriter, h2 {
-		font-family: 'Cutive', serif;
+		font-family: 'Miracle', sans-serif;
 		font-weight: 400;
 	}
 	.fancy {
-		font-family: 'Lovers Quarrel', cursive;
+		font-family: 'Miracle', sans-serif;
 		font-weight: 400;
 	}
 	.monospace {
-		font-family: 'Cutive', serif;
-		font-weight: 400;
+		font-family: 'Caroline', sans-serif;
+		font-weight: 500;
+		font-size: 60pt;
 	}
 	
 	#header .fancy {
@@ -35,7 +39,7 @@
 	}		
 
 	#intro .monospace {
-		font-size: 50pt;
+		font-size: 65pt;
 	}
 
 	.shadow {
@@ -81,7 +85,7 @@
 			}
 
 	body,input,textarea,select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Miracle', sans-serif;
 		font-weight: 300;
 		font-size: 20pt;
 		line-height: 1.75em;
@@ -100,8 +104,9 @@
 		}
 		
 	h2 {
+		font-family: 'Caroline';
 		font-size: 2.25em;
-		letter-spacing: -2px;
+		letter-spacing: 4px;
 		line-height: 1.25em;
 	}
 		
@@ -149,6 +154,7 @@
 	
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
+		font-family: 'Caroline';
 	}
 
 	header {
@@ -674,7 +680,7 @@
 
 		.fa:before {
 			display:inline-block;
-			font-family: FontAwesome;
+			font-family: 'Miracle', sans-serif;
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -1113,7 +1119,8 @@
 	}
 	
 		#logo a {
-			font-size: 1.25em;
+			font-size: 30px;
+			font-weight: 100;
 		}
 	
 	#nav {
@@ -1142,6 +1149,8 @@
 					line-height: 3em;
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
+					font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+					font-weight: 400;
 				}
 
 /*********************************************************************************/
