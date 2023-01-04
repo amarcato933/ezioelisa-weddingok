@@ -1227,6 +1227,40 @@
 		font-weight: bold;
 		font-size: 27px;
 	}
+	
+
+	.sposa-icons {
+		width: 56px;
+		margin-left: 100px;
+		float: left;;
+	}
+
+	.sposa-icons img {
+		display: block;
+		margin: 0 auto;	
+	}
+
+	.sposo-icons {
+		width: 50px;
+		margin-right: 100px;
+		float: right;
+	}
+
+	.sposo-icons img {
+		display: block;
+		margin: 0 auto;	
+	}
+
+	.grow img{
+		transition: 1s ease;
+		}
+		
+		.grow img:hover{
+			-webkit-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			transform: scale(1.2);
+			transition: 1s ease;
+		}		
 
 /*********************************************************************************/
 /* Ali                                                                           */
