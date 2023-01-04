@@ -157,7 +157,7 @@
 	}
 	
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 25px;
 		font-family: 'dity';
 		font-size: 23px;
 	}
