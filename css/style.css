@@ -44,7 +44,7 @@
 	}		
 
 	#intro .monospace {
-		font-size: 75pt;
+		font-size: 80pt;
 	}
 
 	.shadow {
@@ -1182,6 +1182,25 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: 20% 0%;
+	}
+
+	.btn-indications {
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+		margin: 0 auto;
+		height: 8vh;
+		font-family: 'Sweetie Pie', sans-serif;
+		font-weight: bold;
+		border-radius: 22px;
+		background-color: #8a9bc2;
+        border: .5px solid #8a9bc2;
+        border-radius: 30px;
+        color: #fff;
+        padding: 8px;
+        box-shadow: 0 0 30px 0 #8a9bc2,
+                    0 0 30px 0 #8a9bc2,
+                    0 0 10px 0 #8a9bc2 inset;
 	}
 
 
