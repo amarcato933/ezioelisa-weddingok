@@ -643,7 +643,7 @@
 				}
 			
 				.main.style3.secondary {
-					background: #A399BD;
+					background: #DBD7E5;
 				}
 
 	/* Dark */
@@ -1203,6 +1203,30 @@
                     0 0 10px 0 #8a9bc2 inset;
 	}
 
+	.btn-contacts {
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+		margin: 0 auto;
+		height: 8vh;
+		font-family: 'Sweetie Pie', sans-serif;
+		font-weight: bold;
+		border-radius: 22px;
+		background-color: #8a9bc2;
+        border: .5px solid #8a9bc2;
+        border-radius: 30px;
+        color: #fff;
+        padding: 8px;
+        box-shadow: 0 0 30px 0 #8a9bc2,
+                    0 0 30px 0 #8a9bc2,
+                    0 0 10px 0 #8a9bc2 inset;
+	}
+
+	.btn-contacts-content {
+		color:white;
+		font-weight: bold;
+		font-size: 27px;
+	}
 
 /*********************************************************************************/
 /* Ali                                                                           */
