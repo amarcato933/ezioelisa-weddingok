@@ -10,6 +10,7 @@
 @import url(https://fonts.cdnfonts.com/css/zizou-slab);
 @import url(https://fonts.cdnfonts.com/css/sweetie-pie);
 @import url(https://fonts.cdnfonts.com/css/bringing-on-the-heartbreak);
+@import url(https://fonts.cdnfonts.com/css/clarine);
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -1261,7 +1262,6 @@
 			transform: scale(1.2);
 			transition: 1s ease;
 		}		
-
 /*********************************************************************************/
 /* Ali                                                                           */
 /*********************************************************************************/
@@ -1724,3 +1724,12 @@
 			body.touch .poptrox-popup .closer {
 				opacity: 1.0 !important;
 			}
+
+
+
+/*********************************************************************************/
+/* Per chi alloggia                                                              */
+/*********************************************************************************/
+
+
+			  
