@@ -2,73 +2,72 @@
 ---
 {% include header.html title="Guestbook" %}		
 
-		<!-- Guestbook -->
-			<section id="guestbook" class="main style3 primary">
-				<div class="content container">
-<!-- customize labels of htmlcommentbox.com -->
-<script>
-// This code goes ABOVE the main HTML Comment Box code!
-// replace the text in the single quotes below to customize labels.
-hcb_user = {
-    //L10N
-    comments_header : '<header style="text-align: center;"><h2>Libro degli ospiti online</h2></header><p>Grazie per esserti fermato. In questo muro puoi scrivere qualsiasi cosa, sentiti libero!</p>',
-    name_label : 'Nome',
-    content_label: 'Lascia un messaggio!',
-    submit : 'Pubblica (aggiorna la pagina)',
-    logout_link : '<img title="log out" src="//www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon"/>',
-    admin_link : '<img src="//www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon"/>',
-    no_comments_msg: 'Nessuno ha lasciato ancora un commento, sii il primo!',
-    add:'Aggiungi nota',
-    again: 'Pubblica un/altra nota',
-    rss:'<img src="//www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
-    said:'said:',
-    prev_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
-    next_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
-    showing:'Showing',
-    to:'to',
-    website_label:'website (optional)',
-    email_label:'email',
-    anonymous:'Anonymous',
-    mod_label:'(mod)',
-    subscribe:'invia risposte per mail',
-    are_you_sure:'Do you want to flag this as inappropriate?',
-    
-    reply:'<img src="//www.htmlcommentbox.com/static/images/reply.png"/> reply',
-    flag:'<img src="//www.htmlcommentbox.com/static/images/flag.png"/> flag',
-    like:'<img src="//www.htmlcommentbox.com/static/images/like.png"/> like',
-    
-    //dates
-    days_ago:'giorni fa',
-    hours_ago:'ore fa',
-    minutes_ago:'minuti fa',
-    within_the_last_minute:'nell/ultimo minuto',
+		<!-- START GUESTBOOK -->
+		<section id="guestbook" class="main style3 primary">
+			<div class="content container">
+				<script>
+					// replace the text in the single quotes below to customize labels.
+					hcb_user =
+					{
+						comments_header : '<header style="text-align: center;"><h2>Libro degli</h2> <h2> ospiti online</h2></header><p>Grazie per esserti fermato. <br>Qui puoi lasciare un pensiero per noi!</p>',
+						name_label : 'Nome',
+						content_label: 'Lascia un messaggio!',
+						submit : 'Pubblica (ed aggiorna la pagina)',
+						logout_link : '<img title="log out" src="//www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon"/>',
+						admin_link : '<img src="//www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon"/>',
+						no_comments_msg: 'Nessuno ha lasciato ancora un commento, sii il primo!',
+						add:'Aggiungi nota',
+						again: 'Pubblica un/altra nota',
+						rss:'<img src="//www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
+						said:'said:',
+						prev_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+						next_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+						showing:'Showing',
+						to:'to',
+						website_label:'website (optional)',
+						email_label:'email',
+						anonymous:'Anonymous',
+						mod_label:'(mod)',
+						subscribe:'invia risposte per mail',
+						are_you_sure:'Do you want to flag this as inappropriate?',
+					
+						reply:'<img src="//www.htmlcommentbox.com/static/images/reply.png"/> reply',
+						flag:'<img src="//www.htmlcommentbox.com/static/images/flag.png"/> flag',
+						like:'<img src="//www.htmlcommentbox.com/static/images/like.png"/> like',
+					
+						//dates
+						days_ago:'giorni fa',
+						hours_ago:'ore fa',
+						minutes_ago:'minuti fa',
+						within_the_last_minute:'nell/ultimo minuto',
+					
+						msg_thankyou:'Grazie per aver pubblicato un commento!',
+						msg_approval:'()',
+						msg_approval_required:'Grazie per il commento! Apparirà una volta che siamo certi non sia spam',
+					
+						err_bad_html:'bad html.',
+						err_bad_email:'Metti un indirizzo email valido',
+						err_too_frequent:'Devi aspettare qualche secondo prima di pubblicare un secondo commento.',
+						err_comment_empty:'Commento non pubblicato perchè era vuoto!',
+						err_denied:'Il tuo commento non è stato accettato.',
+					
+						//SETTINGS
+						MAX_CHARS: 4096,
+						PAGE:'www.ezioelisa-wedding.it', // ID of the webpage to show comments for. defaults to the webpage the user is currently visiting.
+						RELATIVE_DATES:true // show dates in the form "X hours ago." etc.
+					};
+				</script>
+				<!-- done customizing labels of htmlcommentbox.com -->
 
-    msg_thankyou:'Grazie per aver pubblicato un commento!',
-    msg_approval:'()',
-    msg_approval_required:'Grazie per il commento! Apparirà una volta che siamo certi non sia spam',
-    
-    err_bad_html:'bad html.',
-    err_bad_email:'Metti un indirizzo email valido',
-    err_too_frequent:'Devi aspettare qualche secondo prima di pubblicare un secondo commento.',
-    err_comment_empty:'Commento non pubblicato perchè era vuoto!',
-    err_denied:'Il tuo commento non è stato accettato.',
-
-    //SETTINGS
-    MAX_CHARS: 4096,
-    PAGE:'www.ezioelisa-wedding.it', // ID of the webpage to show comments for. defaults to the webpage the user is currently visiting.
-    RELATIVE_DATES:true // show dates in the form "X hours ago." etc.
-};
-</script>
-<!-- done customizing labels of htmlcommentbox.com -->
-
-<!-- begin wwww.htmlcommentbox.com -->
-<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML </a> sta caricando i commenti ...</div>
-<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16798&num=10&ts=1671448310687");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-
-        </div>
-			</section>
+				<!-- begin wwww.htmlcommentbox.com -->
+				<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML </a> sta caricando i commenti ...</div>
+				<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+				<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16798&num=10&ts=1671448310687");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); 
+				</script>
+				<!-- end www.htmlcommentbox.com -->
+			</div>
+		</section>
+		<!-- END GUESTBOOK -->
 			
 <!-- Footer -->
 {% include footer.html %}
