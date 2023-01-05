@@ -45,7 +45,7 @@
 	}		
 
 	#intro .monospace {
-		font-size: 80pt;
+		font-size: 65pt;
 	}
 
 	.shadow {
@@ -611,6 +611,7 @@
 
 					.main.style2.right .content {
 						left: 60%;
+						margin-bottom: 30px;
 					}
 
 				.main.style2.inactive {
