@@ -1815,3 +1815,7 @@
     z-index: 1;
 	color: white;
 }
+
+#HCB_comment_box .hcb-comment-body {
+	font-family: monospace;
+}
